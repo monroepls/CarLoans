@@ -1,0 +1,44 @@
+﻿<Page x:Class="CarLoans.Pages.MainNewsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CarLoans.Pages"
+      mc:Ignorable="d"
+      Title="Главное окно" Height="746" Width="1932">
+    <Grid Background="#d1cfcf" Margin="0,0,10,0">
+        <Rectangle Fill="#bdbdbd" HorizontalAlignment="Center" Height="231" Margin="0,428,0,0" Stroke="#bdbdbd" VerticalAlignment="Top" Width="2320"/>
+        <Rectangle Fill="#bdbdbd" HorizontalAlignment="Center" Height="287" Margin="0,57,0,0" Stroke="#bdbdbd" VerticalAlignment="Top" Width="1953"/>
+        <Label Content="Добро пожаловать!" FontSize="20" FontFamily="Arial" HorizontalAlignment="Left" Margin="24,11,0,0" VerticalAlignment="Top" Height="56" Width="466"/>
+        <Label Content="Последние новости для вас:" FontSize="18" FontFamily="Arial" HorizontalAlignment="Left" Margin="24,57,0,0" VerticalAlignment="Top" Height="42" Width="332"/>
+        <Image Margin="24,159,0,0" Source="/Resources/NewBank.jpg" Stretch="UniformToFill" Height="168" VerticalAlignment="Top" HorizontalAlignment="Left" Width="226"/>
+        <Label Content="Открытие&#xD;&#xA;банка в Армении" FontSize="14" FontFamily="Arial" HorizontalAlignment="Left" Margin="24,107,0,0" VerticalAlignment="Top" Width="226"/>
+        <Label Content="Продление контракта&#xD;&#xA;между BlessBank и Nissan" FontSize="14" FontFamily="Arial" HorizontalAlignment="Left" Margin="328,107,0,0" VerticalAlignment="Top" Width="222"/>
+        <Image Margin="648,159,0,0" Source="/Resources/dollar.jpg" Stretch="Fill" Height="168" VerticalAlignment="Top" HorizontalAlignment="Left" Width="222"/>
+        <Label Content="Доллар подскочил выше 82&#xD;&#xA;евро уже по 90" FontSize="14" FontFamily="Arial" HorizontalAlignment="Left" Margin="646,107,0,0" VerticalAlignment="Top" Width="224"/>
+        <Label Content="Nissan" FontSize="20" FontFamily="Arial" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="63,438,0,0" VerticalAlignment="Top" Width="226"/>
+        <Label HorizontalContentAlignment="Center" Content="Lada" FontSize="20" FontFamily="Arial" HorizontalAlignment="Left" Margin="374,438,0,0" VerticalAlignment="Top" Width="226"/>
+        <Label HorizontalContentAlignment="Center" Content="Mercedes" FontSize="20" FontFamily="Arial" HorizontalAlignment="Left" Margin="675,438,0,0" VerticalAlignment="Top" Width="226"/>
+        <Label HorizontalContentAlignment="Center" Content="Toyota" FontSize="20" FontFamily="Arial" HorizontalAlignment="Left" Margin="994,438,0,0" VerticalAlignment="Top" Width="226"/>
+        <Label Content="Была уволена сотрудница&#xD;&#xA;за измену банку"  FontSize="14" FontFamily="Arial" HorizontalAlignment="Left" Margin="960,107,0,0" VerticalAlignment="Top" Width="226"/>
+        <Label Content="Nissan Z назван&#xD;&#xA;«Лучшим спортивным купе»&#xD;&#xA;по версии&#xD;&#xA;MotorWeek Drivers' Choice Awards 2023" 
+               FontSize="14" FontFamily="Arial" HorizontalAlignment="Left" Margin="1281,76,0,0" VerticalAlignment="Top" Width="233"/>
+        <Label HorizontalContentAlignment="Center" Content="Audi" FontSize="20" FontFamily="Arial" HorizontalAlignment="Left" Margin="1312,438,0,0" VerticalAlignment="Top" Width="226"/>
+        <Label Content="В прошедший четверг прошло&#xD;&#xA;одно из самых важный заседаний&#xD;&#xA;в истории банка...... " 
+               FontSize="14" FontFamily="Arial" HorizontalAlignment="Left" Margin="1609,92,0,0" VerticalAlignment="Top" Width="231"/>
+        <Label HorizontalContentAlignment="Center" Content="Renault" FontSize="20" FontFamily="Arial" HorizontalAlignment="Left" Margin="1638,438,0,0" VerticalAlignment="Top" Width="226"/>
+        <Image Margin="1281,160,0,0" Source="/Resources/NissanZ.jpg" Stretch="Fill" Height="168" VerticalAlignment="Top" HorizontalAlignment="Left" Width="226"/>
+        <Label Content="Компании с которыми наш банк сотрудничает на данный момент:" FontSize="20" FontFamily="Arial" HorizontalAlignment="Left" Margin="24,364,0,0" VerticalAlignment="Top" Height="42" Width="656"/>
+        <Image Margin="1609,160,0,0" Source="/Resources/Sobranie.jpg" Stretch="Fill" Height="168" VerticalAlignment="Top" HorizontalAlignment="Left" Width="226"/>
+        <Image Margin="63,471,0,0" Source="/Resources/nissan-logo.png" Stretch="Fill" Height="169" VerticalAlignment="Top" HorizontalAlignment="Left" Width="226"/>
+        <Image Margin="994,476,0,0" Source="/Resources/toyota-logo.png" Stretch="Fill" Height="168" VerticalAlignment="Top" HorizontalAlignment="Left" Width="222"/>
+        <Image Margin="679,470,0,0" Source="/Resources/mercedes-logo.png" Stretch="Fill" Height="170" VerticalAlignment="Top" HorizontalAlignment="Left" Width="222"/>
+        <Image Margin="372,488,0,0" Source="/Resources/lada-logo.png" Stretch="Fill" Height="134" VerticalAlignment="Top" HorizontalAlignment="Left" Width="226"/>
+        <Image Margin="1312,471,0,0" Source="/Resources/audi-logo.gif" Stretch="Fill" Height="169" VerticalAlignment="Top" HorizontalAlignment="Left" Width="226"/>
+        <Image Margin="1682,474,0,0" Source="/Resources/renault-logo.png" Stretch="Fill" Height="174" VerticalAlignment="Top" HorizontalAlignment="Left" Width="140"/>
+        <Image Margin="960,159,0,0" Source="/Resources/MaybiBaibi.png" Stretch="Fill" Height="168" VerticalAlignment="Top" HorizontalAlignment="Left" Width="222"/>
+        <Image Margin="328,159,0,0" Source="/Resources/Soglashenie.jpg" Stretch="Fill" Height="168" VerticalAlignment="Top" HorizontalAlignment="Left" Width="222"/>
+
+
+    </Grid>
+</Page>
